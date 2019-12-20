@@ -1,6 +1,6 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 class CuboidMaker {
-  constructor(attr) {
+  constructor(length, width, height) {
     this.length = length;
     this.width  = width;
     this.height = height;
@@ -14,7 +14,7 @@ class CuboidMaker {
 }
 
 class CubeMaker extends CuboidMaker {
-  constructor(obj) {
+  constructor() {
     super(obj);
   }
 }
